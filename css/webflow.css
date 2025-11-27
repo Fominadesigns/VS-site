@@ -1130,16 +1130,7 @@ textarea.w-select {
 .w-dropdown-link:focus {
   outline: 0;
 }
-@media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
-    .avatar-wrap img {
-    width: 40%;
-    height: auto;
-    display: block;
-  }
-}
+
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
