@@ -2721,17 +2721,11 @@ img {
   .card-heading-wrap.dark.fix-h {
     height: 16vw;
   }
-  /* По умолчанию, например, пусть будет авто */
-.avatar-wrap img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-}
-
-/* На мобильных (например, до 767px ширины экрана) делаем 40% */
-@media (max-width: 767px) {
+ @media (max-width: 767px) {
   .avatar-wrap img {
     width: 40%;
+    height: auto;
+    display: block;
   }
 }
 
