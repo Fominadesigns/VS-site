@@ -2113,6 +2113,12 @@ img {
   .card-heading-wrap.dark {
     height: 7vw;
   }
+
+   .avatar-wrap img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 479px) {
