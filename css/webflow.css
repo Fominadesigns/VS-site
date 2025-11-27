@@ -1122,6 +1122,11 @@ textarea.w-select {
   .w-nav-brand {
     padding-left: 10px;
   }
+    .avatar-wrap img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
 }
 /**
  * ## Note
