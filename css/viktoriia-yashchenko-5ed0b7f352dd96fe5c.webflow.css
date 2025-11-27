@@ -2113,6 +2113,13 @@ img {
   .card-heading-wrap.dark {
     height: 7vw;
   }
+
+  .avatar-wrap img {
+    width: 40%;
+    height: auto;
+    display: block;
+  }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -2721,13 +2728,6 @@ img {
   .card-heading-wrap.dark.fix-h {
     height: 16vw;
   }
- @media (max-width: 767px) {
-  .avatar-wrap img {
-    width: 40%;
-    height: auto;
-    display: block;
-  }
-}
 
 #w-node-_566ecd7f-d727-9428-1e96-809ea0fb144a-1a7218bb, #w-node-_0c3ada12-ca7e-d5ba-4cf3-77c528d780cb-1a7218bb, #w-node-_1abf36ac-d6b8-d01b-ab33-55e60a3b84b0-1a7218bb {
   grid-area: span 1 / span 1 / span 1 / span 1;
